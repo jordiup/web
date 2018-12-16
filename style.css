@@ -100,7 +100,7 @@ h1 {
 
   .logo {
     position:relative;
-    display: block;
+    display: none;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
@@ -108,6 +108,7 @@ h1 {
   }
 
 }
+
 
 .dp {
   width:25%;
