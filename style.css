@@ -76,6 +76,26 @@ h1 {
     font-family: 'Open Sans';
 }
 
+.footer {
+  float:right;
+  font-family:Consolas;
+  color:#1F2024;
+  font-weight: bold;
+  font-size: 0.8rem;
+  opacity:0.5;
+}
+
+.footer:hover{
+  float:right;
+  /* font-family:Consolas; */
+  color:#1F2024;
+  font-weight: bold;
+  font-size: 0.8rem;
+  opacity:0.7;
+  transition: color .65s ease-in-out;
+
+}
+
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .card{
